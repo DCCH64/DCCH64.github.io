@@ -28,7 +28,7 @@ jobs:
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v3.1.2
         with:
-          name: outputs
+          name: docusaurus-outputs
           path: ./build
       # Popular action to deploy to GitHub Pages:
       # Docs: https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-docusaurus
@@ -37,4 +37,4 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           # Build output to publish to the `gh-pages` branch:
-          artifact: outputs
+          artifact_name: docusaurus-outputs
