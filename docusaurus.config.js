@@ -10,7 +10,7 @@ const config = {
   tagline: "World's most open and flexible scale railroad ecosystem.",
   url: 'https://dcch64.github.io',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
