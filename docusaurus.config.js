@@ -62,7 +62,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Get started',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {href: 'https://dcch64.github.io/webclient/', label: 'Web Controller', position: 'left'},
