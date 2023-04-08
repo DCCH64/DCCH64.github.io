@@ -8,17 +8,23 @@ Hey, nice that you found your way to DCCH64. You are interested in Raspberry Pi,
 
 ## Getting Started
 
-1. You can install it from git:
+>### What you'll need:
+>- A working track and DCC locomotives
+>- All the components built together (you don't need housing, but if you want it be creative :-) )
+>- The [web controller](https://dcch64.github.io/webclient)
 
-``$ git clone https://github.com/DCCH64/MainStation.git && npm install && node index.js``
+### 1. Build it:
+### 2. Install Software:
+- You can install it from git:
+    
+    ``$ git clone https://github.com/DCCH64/MainStation.git && npm install && node index.js``
 
-2. You can deploy it to balenaOS by one click **(best option)**
+- You can deploy it to balenaOS by one click **(best option)**
 
-[![deploy button](https://balena.io/deploy.svg)](https://dashboard.balena-cloud.com/deploy?repoUrl=https://github.com/DCCH64/MainStation)
+    [![deploy button](https://balena.io/deploy.svg)](https://dashboard.balena-cloud.com/deploy?repoUrl=https://github.com/DCCH64/MainStation)
 
-### What you'll need
-
-- A working track and DCC locomotives
-- All the components built together (you don't need housing, but if you want it be creative :-) )
-- The [Web Client](https://dcch64.github.io/webclient)
+### 3. Try it out:
+1. Navigate to the [web controller](https://dcch64.github.io/webclient)
+2. Connect to the DCCH64 MainStation
+3. Try it out
 
