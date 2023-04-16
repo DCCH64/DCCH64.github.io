@@ -65,7 +65,6 @@ const config = {
             label: 'Get started',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
-          {href: 'https://dcch64.github.io/webclient/', label: 'Web Controller', position: 'left'},
           {
             href: 'https://github.com/DCCH64',
             label: 'GitHub',
